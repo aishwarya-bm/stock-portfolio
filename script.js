@@ -1,5 +1,4 @@
 var checkBtn = document.getElementById("check");
-
 checkBtn.addEventListener("click", function(e){
     e.preventDefault();
     let costp = Number(document.getElementById("cp").value);
